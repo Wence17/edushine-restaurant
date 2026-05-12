@@ -10,8 +10,8 @@ import {
   HiOutlineArrowRight,
   HiOutlinePlay,
 } from "react-icons/hi";
-import aboutpic from "../public/images/about/about.jpg";
-import aboutpic2 from "../public/images/about/about-2.jpg";
+import aboutpic from "../public/assets/images/about.jpg";
+import aboutpic2 from "../public/assets/images/about-2.jpg";
 
 const highlights = [
   "Freshly prepared meals made daily with quality ingredients.",

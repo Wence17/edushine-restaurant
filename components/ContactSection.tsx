@@ -80,7 +80,7 @@ export default function ContactSection() {
           <iframe
             title="Edushine Fast Food Location"
             src="https://www.google.com/maps?q=Plot+106+Aminu+Kano+Crescent+Wuse+II+Abuja&output=embed"
-            className="h-[420px] w-full border-0"
+            className="h-105 w-full border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
