@@ -32,7 +32,7 @@ const menuItems: Record<
       description:
         "Our signature fried rice prepared with chef-selected ingredients and bold, satisfying flavors.",
       price: "₦4,000",
-      image: "/images/menu/fried-rice.jpg",
+      image: "/assets/images/menu/fried-rice.jpg",
       featured: true,
     },
     {
@@ -40,14 +40,14 @@ const menuItems: Record<
       description:
         "Savory stir-fried noodles with vegetables and your choice of protein.",
       price: "₦4,000",
-      image: "/images/menu/noodles.jpg",
+      image: "/assets/images/menu/noodles.jpg",
     },
     {
       name: "Casserole Special",
       description:
         "A premium chef-crafted casserole packed with hearty ingredients and rich taste.",
       price: "₦6,000",
-      image: "/images/menu/casserole.jpg",
+      image: "/assets/images/menu/casserole.jpg",
     },
   ],
   beverages: [
@@ -55,26 +55,26 @@ const menuItems: Record<
       name: "Chapman",
       description: "Nigeria’s favorite refreshing cocktail, perfectly chilled.",
       price: "₦1,500",
-      image: "/images/menu/chapman.jpg",
+      image: "/assets/images/menu/chapman.jpg",
       featured: true,
     },
     {
       name: "Zobo",
       description: "Traditional hibiscus drink with a refreshing local taste.",
       price: "₦1,000",
-      image: "/images/menu/zobo.jpg",
+      image: "/assets/images/menu/zobo.jpg",
     },
     {
       name: "Fresh Juice",
       description: "Freshly made orange, pineapple, or watermelon juice.",
       price: "₦1,000",
-      image: "/images/menu/fresh-juice.jpg",
+      image: "/assets/images/menu/fresh-juice.jpg",
     },
     {
       name: "Soft Drinks",
       description: "Coca-Cola, Sprite, and Fanta served ice cold.",
       price: "₦500",
-      image: "/images/menu/soft-drinks.jpg",
+      image: "/assets/images/menu/soft-drinks.jpg",
     },
   ],
   salads: [
@@ -83,7 +83,7 @@ const menuItems: Record<
       description:
         "Fresh lettuce, crispy croutons, and creamy Caesar dressing.",
       price: "₦3,000",
-      image: "/images/menu/caesar-salad.jpg",
+      image: "/assets/images/menu/caesar-salad.jpg",
       featured: true,
     },
   ],
@@ -92,25 +92,25 @@ const menuItems: Record<
       name: "Fried Plantain (Dodo)",
       description: "Sweet golden plantains fried to perfection.",
       price: "₦1,500",
-      image: "/images/menu/dodo.jpg",
+      image: "/assets/images/menu/dodo.jpg",
     },
     {
       name: "Moi Moi",
       description: "Steamed bean pudding, soft and flavorful.",
       price: "₦1,000",
-      image: "/images/menu/moi-moi.jpg",
+      image: "/assets/images/menu/moi-moi.jpg",
     },
     {
       name: "Coleslaw",
       description: "Fresh cabbage and carrot salad.",
       price: "₦1,500",
-      image: "/images/menu/coleslaw.jpg",
+      image: "/assets/images/menu/coleslaw.jpg",
     },
     {
       name: "Pepper Sauce",
       description: "Spicy pepper sauce to add extra heat.",
       price: "₦800",
-      image: "/images/menu/pepper-sauce.jpg",
+      image: "/assets/images/menu/pepper-sauce.jpg",
     },
   ],
 };

@@ -10,7 +10,8 @@ import {
   HiOutlineArrowRight,
   HiOutlinePlay,
 } from "react-icons/hi";
-import aboutpic from "../public/assets/images/House-special-fried-rice.png";
+import aboutpic from "../public/images/about/about.jpg";
+import aboutpic2 from "../public/images/about/about-2.jpg";
 
 const highlights = [
   "Freshly prepared meals made daily with quality ingredients.",
@@ -146,7 +147,7 @@ export default function AboutSection() {
             <div className="relative mt-10 overflow-hidden rounded-3xl bg-white p-3 shadow-lg ring-1 ring-slate-100">
               <div className="relative aspect-video overflow-hidden rounded-2xl">
                 <Image
-                  src={aboutpic}
+                  src={aboutpic2}
                   alt="Inside Edushine Fast Food"
                   fill
                   className="object-cover"

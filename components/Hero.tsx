@@ -11,7 +11,7 @@ import {
   HiOutlineTruck,
   HiOutlineShieldCheck,
 } from "react-icons/hi";
-import herofood from "../public/assets/images/House-special-fried-rice.png";
+import herofood from "../public/assets/images/hero-img.png";
 
 export default function HeroSection() {
   return (

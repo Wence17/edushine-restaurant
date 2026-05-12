@@ -18,42 +18,42 @@ const testimonials = [
   {
     name: "Chinedu A.",
     role: "Business Professional",
-    image: "/images/testimonials/testimonial-1.jpg",
+    image: "/assets/images/testimonials/testimonial-1.jpg",
     quote:
       "The House-Special Fried Rice is consistently delicious. Fresh ingredients, generous portions, and fast delivery every time.",
   },
   {
     name: "Amina S.",
     role: "Wuse II Resident",
-    image: "/images/testimonials/testimonial-2.jpg",
+    image: "/assets/images/testimonials/testimonial-2.jpg",
     quote:
       "Edushine Fast Food has become my go-to spot for lunch. Their Chapman and Caesar Salad are absolutely perfect.",
   },
   {
     name: "Tolu O.",
     role: "Corporate Client",
-    image: "/images/testimonials/testimonial-3.jpg",
+    image: "/assets/images/testimonials/testimonial-3.jpg",
     quote:
       "Excellent customer service and reliable office lunch delivery. Highly recommended for busy professionals in Abuja.",
   },
   {
     name: "Fatima K.",
     role: "Food Enthusiast",
-    image: "/images/testimonials/testimonial-4.jpg",
+    image: "/assets/images/testimonials/testimonial-4.jpg",
     quote:
       "Fresh, tasty, and affordable. The delivery was quick and the packaging was excellent.",
   },
   {
     name: "Emeka O.",
     role: "Entrepreneur",
-    image: "/images/testimonials/testimonial-5.jpg",
+    image: "/assets/images/testimonials/testimonial-5.jpg",
     quote:
       "One of the best fast food spots in Abuja. Great customer service and amazing flavors.",
   },
   {
     name: "Sarah M.",
     role: "Health-Conscious Customer",
-    image: "/images/testimonials/testimonial-6.jpg",
+    image: "/assets/images/testimonials/testimonial-6.jpg",
     quote:
       "I love their Caesar Salad and fresh juices. Everything tastes fresh and wholesome.",
   },
