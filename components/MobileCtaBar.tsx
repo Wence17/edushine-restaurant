@@ -35,7 +35,7 @@ export default function MobileCtaBar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaWhatsapp className="mr-2 h-5 w-5" />
+            <FaWhatsapp className="mr-1 sm:mr-2 h-5 w-5" />
             <span className="text-sm font-semibold">WhatsApp</span>
           </Link>
         </Button>
