@@ -52,7 +52,7 @@ export default function StatsSection() {
         <div
           className="h-full w-full bg-cover bg-center"
           style={{
-            backgroundImage: "url('/images/stats-bg.jpg')",
+            backgroundImage: "url('/assets/images/stats-bg.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-[#1A237E]/90" />
