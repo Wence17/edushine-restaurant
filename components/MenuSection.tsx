@@ -32,7 +32,7 @@ const menuItems: Record<
       description:
         "Our signature fried rice prepared with chef-selected ingredients and bold, satisfying flavors.",
       price: "₦4,000",
-      image: "/assets/images/menu/fried-rice.jpg",
+      image: "/assets/images/menu/House-Special-Fried-Rice.png",
       featured: true,
     },
     {
@@ -71,10 +71,28 @@ const menuItems: Record<
       image: "/assets/images/menu/fresh-juice.jpg",
     },
     {
-      name: "Soft Drinks",
-      description: "Coca-Cola, Sprite, and Fanta served ice cold.",
+      name: "Coca-Cola Original PET",
+      description: "A refreshing classic cola served ice cold in a convenient PET bottle.",
       price: "₦500",
-      image: "/assets/images/menu/soft-drinks.jpg",
+      image: "/assets/images/menu/coca-cola.jpg",
+    },
+    {
+      name: "Pet Sprite",
+      description: "An ice-cold, refreshing lemon-lime soda in a convenient PET bottle.",
+      price: "₦500",
+      image: "/assets/images/menu/sprite.jpg",
+    },
+    {
+      name: "Fanta Pet",
+      description: "Enjoy the fruity, refreshing taste of Fanta in a convenient PET bottle.",
+      price: "₦500",
+      image: "/assets/images/menu/fanta.jpg",
+    },
+    {
+      name: "Water Pet",
+      description: "Fresh water served in a PET bottle.",
+      price: "₦300",
+      image: "/assets/images/menu/water.jpg",
     },
   ],
   salads: [

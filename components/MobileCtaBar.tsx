@@ -8,8 +8,9 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function MobileCtaBar() {
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 border-t border-[#1A237E]/10 bg-white/95 backdrop-blur-xl shadow-[0_-8px_30px_rgba(15,23,42,0.08)] md:hidden">
+    {/* <div className="fixed inset-x-0 bottom-0 z-50 border-t border-[#1A237E]/10 bg-white/95 backdrop-blur-xl shadow-[0_-8px_30px_rgba(15,23,42,0.08)] md:hidden"> */}
       {/* Top Accent Line */}
-      <div className="h-1 w-full bg-linear-to-r from-[#FFC107] via-[#FFD54F] to-[#FFC107]" />
+      <div className="h-0.5 w-full bg-linear-to-r from-[#FFC107] via-[#FFD54F] to-[#FFC107]" />
 
       <div className="grid grid-cols-3 gap-2 p-3">
         {/* Call */}

@@ -43,25 +43,25 @@ const galleryImages = [
     category: "Healthy Choice",
   },
   {
-    src: "/assets/images/gallery/gallery-5.jpg",
+    src: "/assets/images/gallery/gallery-1.jpg",
     alt: "Fresh fruit juice selection",
     title: "Fresh Juices",
     category: "Beverages",
   },
   {
-    src: "/assets/images/gallery/gallery-6.jpg",
+    src: "/assets/images/gallery/gallery-2.jpg",
     alt: "Golden fried plantain",
     title: "Fried Plantain",
     category: "Side Dish",
   },
   {
-    src: "/assets/images/gallery/gallery-7.jpg",
+    src: "/assets/images/gallery/gallery-3.jpg",
     alt: "Interior of Edushine Fast Food in Wuse II",
     title: "Welcoming Ambience",
     category: "Restaurant",
   },
   {
-    src: "/assets/images/gallery/gallery-8.jpg",
+    src: "/assets/images/gallery/gallery-4.jpg",
     alt: "Chef preparing meals in the kitchen",
     title: "Freshly Prepared",
     category: "Kitchen",
@@ -113,9 +113,9 @@ export default function GallerySection() {
             className="w-full"
           >
             <CarouselContent className="-ml-6">
-              {galleryImages.map((image) => (
+              {galleryImages.map((image,i) => (
                 <CarouselItem
-                  key={image.src}
+                  key={i}
                   className="pl-6 basis-[85%] sm:basis-1/2 lg:basis-1/3 xl:basis-1/4"
                 >
                   <div className="group overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#1A237E]/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#1A237E]/10">

@@ -168,7 +168,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-white/10">
+      <div className="border-t border-white/10 mb-16 md:mb-0">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-center text-sm text-blue-200 sm:px-6 lg:flex-row lg:px-8">
           <p>
             © {year} Edushine Fast Food. All rights reserved.
