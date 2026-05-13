@@ -17,7 +17,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative overflow-hidden bg-[#FDFCF0] pt-20 pb-16 sm:pb-20 lg:pb-24"
+      className="relative overflow-hidden bg-[#FDFCF0] pt-20 pb-16 sm:pb-20 lg:pb-24 w-full"
     >
       {/* Background Decorations */}
       <div className="absolute inset-0 -z-10">
@@ -68,7 +68,7 @@ export default function HeroSection() {
               <Button
                 asChild
                 size="lg"
-                className="group h-12 rounded-full bg-[#FFC107] px-8 font-semibold text-[#1A237E] shadow-lg shadow-[#FFC107]/25 transition-all hover:bg-[#FFD54F]! hover:shadow-xl hover:shadow-[#FFC107]/30"
+                className="group h-12 rounded-full bg-[#FFC107] px-8 font-semibold text-[#1A237E] shadow-lg shadow-[#FFC107]/25 transition-all ease-in-out duration-300 hover:bg-[#FFD54F]! hover:shadow-xl hover:shadow-[#FFC107]/30"
               >
                 <Link href="#menu">
                   Order Now
@@ -80,7 +80,7 @@ export default function HeroSection() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="h-12 rounded-full border-2 border-[#1A237E]/20 bg-white/80 px-8 font-semibold text-[#1A237E] backdrop-blur-sm hover:border-[#1A237E] hover:bg-white"
+                className="h-12 rounded-full border-2 border-[#1A237E]/20 bg-white/80 px-8 font-semibold text-[#1A237E] backdrop-blur-sm hover:border-[#1A237E]! hover:bg-white"
               >
                 <Link href="#gallery">
                   <HiOutlinePlay className="mr-2 h-5 w-5 text-[#B71C1C]" />
@@ -149,7 +149,7 @@ export default function HeroSection() {
                     alt="Delicious meals from Edushine Fast Food"
                     fill
                     priority
-                    className="object-cover"
+                    className="object-contain object-center"
                   />
                 </div>
               </div>

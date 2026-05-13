@@ -1,9 +1,12 @@
 import AboutSection from "@/components/About";
 import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 import GallerySection from "@/components/GallerySection";
 import Header from "@/components/Header";
 import HeroSection from "@/components/Hero";
 import MenuSection from "@/components/MenuSection";
+import MobileCtaBar from "@/components/MobileCtaBar";
+import StatsSection from "@/components/StatsSection";
 import TestimonialsSection from "@/components/Testimonial";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 
@@ -16,8 +19,11 @@ export default function Home() {
       <WhyChooseUsSection />
       <MenuSection />
       <GallerySection />
+      <StatsSection />
       <TestimonialsSection />
       <ContactSection />
+      <Footer />
+      <MobileCtaBar />
     </div>
   );
 }

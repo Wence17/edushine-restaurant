@@ -72,7 +72,7 @@ export default function GallerySection() {
   return (
     <section
       id="gallery"
-      className="relative overflow-hidden bg-[#FDFCF0] py-20 sm:py-24 lg:py-28"
+      className="relative overflow-hidden bg-[#FDFCF0] py-20 sm:py-24 lg:py-28 w-full"
     >
       {/* Background Accents */}
       <div className="absolute inset-0 -z-10">
@@ -119,7 +119,7 @@ export default function GallerySection() {
                   className="pl-6 basis-[85%] sm:basis-1/2 lg:basis-1/3 xl:basis-1/4"
                 >
                   <div className="group overflow-hidden rounded-[2rem] bg-white shadow-sm ring-1 ring-[#1A237E]/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#1A237E]/10">
-                    <div className="relative aspect-[4/5] overflow-hidden">
+                    <div className="relative aspect-4/5 overflow-hidden">
                       <Image
                         src={image.src}
                         alt={image.alt}
@@ -128,7 +128,7 @@ export default function GallerySection() {
                       />
 
                       {/* Overlay */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#1A237E]/85 via-[#1A237E]/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                      <div className="absolute inset-0 bg-linear-to-t from-[#1A237E]/85 via-[#1A237E]/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 
                       {/* View Icon */}
                       <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">

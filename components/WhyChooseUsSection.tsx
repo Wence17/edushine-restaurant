@@ -56,7 +56,7 @@ export default function WhyChooseUsSection() {
   return (
     <section
       id="why-us"
-      className="relative overflow-hidden bg-[#FDFCF0] py-20 sm:py-24 lg:py-28"
+      className="relative overflow-hidden bg-[#FDFCF0] py-20 sm:py-24 lg:py-28 w-full"
     >
       {/* Background Decorations */}
       <div className="absolute inset-0 -z-10">

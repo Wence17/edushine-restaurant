@@ -24,7 +24,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-white py-20"
+      className="relative overflow-hidden bg-white py-20 w-full"
     >
       {/* Background accents */}
       <div className="absolute inset-0 -z-10">

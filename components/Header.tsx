@@ -142,7 +142,7 @@ export default function Header() {
           )}
         >
           {/* Drawer Header */}
-          <div className="flex items-center justify-between border-b border-[#1A237E]/10 px-6 py-5">
+          <div className="flex items-center justify-between border-b border-[#1A237E]/10 px-6 pt-5">
             <div>
               <h2 className="font-serif text-2xl font-bold text-[#1A237E]">
                 Edushine
@@ -163,14 +163,14 @@ export default function Header() {
           </div>
 
           {/* Navigation Links */}
-          <nav className="px-6 py-6" aria-label="Mobile Navigation">
+          <nav className="px-6 pb-6 bg-accent" aria-label="Mobile Navigation">
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
                     onClick={() => setIsOpen(false)}
-                    className="block rounded-xl px-4 py-3 text-base font-medium text-[#1A237E] transition-colors hover:bg-[#1A237E]/5 hover:text-[#B71C1C]"
+                    className="block rounded-xl px-4 py-2 text-base font-medium text-[#1A237E] transition-colors hover:bg-[#1A237E]/5 hover:text-[#B71C1C]"
                   >
                     {link.label}
                   </Link>
@@ -179,7 +179,7 @@ export default function Header() {
             </ul>
 
             {/* Contact Card */}
-            <div className="mt-8 rounded-2xl bg-white p-5 shadow-sm border border-[#1A237E]/5">
+            {/* <div className="mt-8 rounded-2xl bg-white p-5 shadow-sm border border-[#1A237E]/5">
               <p className="text-sm font-medium text-slate-500">
                 Call to Order
               </p>
@@ -192,7 +192,7 @@ export default function Header() {
               <p className="mt-2 text-sm text-slate-600">
                 Fresh meals delivered fast across Abuja.
               </p>
-            </div>
+            </div> */}
 
             {/* Mobile CTA */}
             <Button

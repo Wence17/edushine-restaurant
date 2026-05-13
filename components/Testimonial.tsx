@@ -18,42 +18,42 @@ const testimonials = [
   {
     name: "Chinedu A.",
     role: "Business Professional",
-    image: "/assets/images/testimonials/testimonial-1.jpg",
+    image: "/assets/images/testimonials/testimonials-1.png",
     quote:
       "The House-Special Fried Rice is consistently delicious. Fresh ingredients, generous portions, and fast delivery every time.",
   },
   {
     name: "Amina S.",
     role: "Wuse II Resident",
-    image: "/assets/images/testimonials/testimonial-2.jpg",
+    image: "/assets/images/testimonials/testimonials-2.png",
     quote:
       "Edushine Fast Food has become my go-to spot for lunch. Their Chapman and Caesar Salad are absolutely perfect.",
   },
   {
     name: "Tolu O.",
     role: "Corporate Client",
-    image: "/assets/images/testimonials/testimonial-3.jpg",
+    image: "/assets/images/testimonials/testimonials-3.png",
     quote:
       "Excellent customer service and reliable office lunch delivery. Highly recommended for busy professionals in Abuja.",
   },
   {
     name: "Fatima K.",
     role: "Food Enthusiast",
-    image: "/assets/images/testimonials/testimonial-4.jpg",
+    image: "/assets/images/testimonials/testimonials-4.png",
     quote:
       "Fresh, tasty, and affordable. The delivery was quick and the packaging was excellent.",
   },
   {
     name: "Emeka O.",
     role: "Entrepreneur",
-    image: "/assets/images/testimonials/testimonial-5.jpg",
+    image: "/assets/images/testimonials/testimonials-1.png",
     quote:
       "One of the best fast food spots in Abuja. Great customer service and amazing flavors.",
   },
   {
     name: "Sarah M.",
     role: "Health-Conscious Customer",
-    image: "/assets/images/testimonials/testimonial-6.jpg",
+    image: "/assets/images/testimonials/testimonials-2.png",
     quote:
       "I love their Caesar Salad and fresh juices. Everything tastes fresh and wholesome.",
   },
@@ -69,7 +69,7 @@ export default function TestimonialsSection() {
   return (
     <section
       id="reviews"
-      className="relative overflow-hidden bg-[#FDFCF0] py-20"
+      className="relative overflow-hidden bg-[#FDFCF0] pt-20 w-full"
     >
       {/* Background Decorations */}
       <div className="absolute inset-0 -z-10">
@@ -101,7 +101,7 @@ export default function TestimonialsSection() {
         </motion.div>
 
         {/* Stats */}
-        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
+        {/* <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
           {stats.map((stat, index) => (
             <motion.div
               key={stat.label}
@@ -119,7 +119,7 @@ export default function TestimonialsSection() {
               </p>
             </motion.div>
           ))}
-        </div>
+        </div> */}
 
         {/* Testimonial Cards */}
         {/* Carousel */}
@@ -137,11 +137,11 @@ export default function TestimonialsSection() {
             ]}
             className="w-full"
           >
-            <CarouselContent className="-ml-6">
+            <CarouselContent className="-ml-6 px-2">
               {testimonials.map((testimonial, index) => (
                 <CarouselItem
                   key={index}
-                  className="pl-6 basis-full md:basis-1/2 xl:basis-1/3"
+                  className="pl-6 pb-20 pt-4 basis-full md:basis-1/2 xl:basis-1/3"
                 >
                   <motion.div
                     initial={{ opacity: 0, y: 24 }}
@@ -195,8 +195,8 @@ export default function TestimonialsSection() {
             </CarouselContent>
 
             {/* Navigation */}
-            <CarouselPrevious className="hidden -left-6 lg:flex border-[#1A237E]/10 text-[#1A237E]" />
-            <CarouselNext className="hidden -right-6 lg:flex border-[#1A237E]/10 text-[#1A237E]" />
+            <CarouselPrevious className="hidden -left-10 lg:flex border-[#1A237E]/10 text-[#1A237E]" />
+            <CarouselNext className="hidden -right-10 lg:flex border-[#1A237E]/10 text-[#1A237E]" />
           </Carousel>
         </div>
 
