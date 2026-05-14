@@ -129,7 +129,7 @@ export default function WhyChooseUsSection() {
                       <Icon className="h-7 w-7" />
                     </div>
 
-                    <h3 className="text-lg font-bold text-[#1A237E]">
+                    <h3 className="text-xl font-bold text-[#1A237E]">
                       {feature.title}
                     </h3>
 

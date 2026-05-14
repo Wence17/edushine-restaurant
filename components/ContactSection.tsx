@@ -111,7 +111,7 @@ export default function ContactSection() {
                     </div>
 
                     <div className="min-w-0">
-                      <h3 className="font-bold text-[#1A237E]">
+                      <h3 className="font-bold text-[#1A237E] text-lg">
                         {item.title}
                       </h3>
 

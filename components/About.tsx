@@ -45,7 +45,7 @@ export default function AboutSection() {
             About Edushine Fast Food
           </span>
 
-          <h2 className="mt-4 font-serif text-3xl font-bold tracking-tight text-[#1A237E] sm:text-4xl lg:text-5xl">
+          <h2 className="mt-4 font-sans text-3xl font-bold tracking-tight text-[#1A237E] sm:text-4xl lg:text-5xl">
             Where Great Taste Meets Convenience
           </h2>
 

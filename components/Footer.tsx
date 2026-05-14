@@ -50,7 +50,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative overflow-hidden bg-[#1A237E] text-white w-full">
+    <footer className="relative font-sans! overflow-hidden bg-[#1A237E] text-white w-full">
       {/* Decorative Background */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-0 top-0 h-72 w-72 rounded-full bg-[#FFC107]/10 blur-3xl" />
@@ -63,7 +63,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="#hero" className="inline-block">
-              <h2 className="font-serif text-3xl font-bold tracking-tight">
+              <h2 className="font-sans! text-3xl font-bold tracking-tight">
                 Edushine
                 <span className="text-[#FFC107]">.</span>
               </h2>
@@ -81,7 +81,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold text-white">Quick Links</h3>
+            <h3 className="text-lg font-sans! font-semibold text-white">Quick Links</h3>
             <ul className="mt-5 space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.href}>
@@ -98,7 +98,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold text-white">Contact Info</h3>
+            <h3 className="text-lg font-sans! font-semibold text-white">Contact Info</h3>
 
             <ul className="mt-5 space-y-4 text-blue-100">
               <li className="flex items-start gap-3">
@@ -139,7 +139,7 @@ export default function Footer() {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-lg font-semibold text-white">Follow Us</h3>
+            <h3 className="text-lg font-sans! font-semibold text-white">Follow Us</h3>
 
             <p className="mt-4 leading-7 text-blue-100">
               Stay updated with our latest meals, offers, and customer moments.

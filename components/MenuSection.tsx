@@ -242,7 +242,7 @@ export default function MenuSection() {
                     </span>
                   </div>
 
-                  <p className="mt-3 text-sm leading-7 text-slate-600">
+                  <p className="font-nav mt-3 text-sm leading-7 text-slate-600">
                     {item.description}
                   </p>
                 </div>

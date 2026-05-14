@@ -54,7 +54,7 @@ export default function Header() {
           aria-label="Edushine Fast Food Home"
         >
           <div className="flex flex-col leading-none">
-            <span className="font-serif text-2xl font-bold tracking-tight text-white sm:text-3xl">
+            <span className="font-sans text-2xl font-bold tracking-tight text-white sm:text-3xl">
               Edushine
             </span>
             <span className="text-[11px] font-medium uppercase tracking-[0.25em] text-[#FFC107] sm:text-xs">
@@ -65,12 +65,12 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:block" aria-label="Primary Navigation">
-          <ul className="flex items-center gap-1">
+          <ul className="flex items-center justify-between gap-1">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="rounded-full px-4 py-2 text-sm font-medium text-white/90 transition-all duration-200 hover:bg-white/10 hover:text-[#FFC107]"
+                  className="font-nav rounded-full px-4 py-2 text-sm md:text-base font-medium text-white/90 transition-all duration-200 hover:bg-white/10 hover:text-[#FFC107]"
                 >
                   {link.label}
                 </Link>
@@ -84,7 +84,7 @@ export default function Header() {
           <Button
             asChild
             size="sm"
-            className="rounded-full bg-[#FFC107] px-6 py-2 font-semibold text-[#1A237E] shadow-lg shadow-[#FFC107]/25 hover:bg-[#FFD54F]!"
+            className="rounded-full bg-[#FFC107] text-sm md:text-base px-6 py-3 font-semibold text-[#1A237E] shadow-lg shadow-[#FFC107]/25 hover:bg-[#FFD54F]!"
           >
             <Link href="#menu">Order Now</Link>
           </Button>
@@ -144,7 +144,7 @@ export default function Header() {
           {/* Drawer Header */}
           <div className="flex items-center justify-between border-b border-[#1A237E]/10 px-6 pt-5">
             <div>
-              <h2 className="font-serif text-2xl font-bold text-[#1A237E]">
+              <h2 className="font-sans text-2xl font-bold text-[#1A237E]">
                 Edushine
               </h2>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FFC107]">
