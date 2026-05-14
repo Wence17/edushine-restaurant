@@ -32,7 +32,7 @@ const menuItems: Record<
       description:
         "Our signature fried rice prepared with chef-selected ingredients and bold, satisfying flavors.",
       price: "₦4,000",
-      image: "/assets/images/menu/House-Special-Fried-Rice.png",
+      image: "/assets/images/menu/House-special-fried-rice.png",
       featured: true,
     },
     {
