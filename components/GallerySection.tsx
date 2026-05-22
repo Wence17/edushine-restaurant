@@ -20,7 +20,7 @@ import {
 const galleryImages = [
   {
     src: "/assets/images/gallery/gallery-1.jpg",
-    alt: "House-Special Fried Rice served at Edushine Fast Food",
+    alt: "House-Special Fried Rice served at Edushines Fast Food",
     title: "House-Special Fried Rice",
     category: "Signature Dish",
   },
@@ -56,7 +56,7 @@ const galleryImages = [
   },
   {
     src: "/assets/images/gallery/gallery-3.jpg",
-    alt: "Interior of Edushine Fast Food in Wuse II",
+    alt: "Interior of Edushines Fast Food in Wuse II",
     title: "Welcoming Ambience",
     category: "Restaurant",
   },
@@ -88,7 +88,7 @@ export default function GallerySection() {
           </span>
 
           <h2 className="mt-4 font-serif text-3xl font-bold tracking-tight text-[#1A237E] sm:text-4xl lg:text-5xl">
-            A Taste of Edushine
+            A Taste of Edushines
           </h2>
 
           <p className="mt-5 text-lg leading-8 text-slate-600">

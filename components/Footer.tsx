@@ -64,7 +64,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="#hero" className="inline-block">
               <h2 className="font-sans! text-3xl font-bold tracking-tight">
-                Edushine
+                Edushines
                 <span className="text-[#FFC107]">.</span>
               </h2>
             </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
             </p>
 
             <p className="mt-4 text-sm text-blue-200">
-              Eat fresh. Eat local. Eat Edushine.
+              Eat fresh. Eat local. Eat Edushines.
             </p>
           </div>
 
@@ -123,10 +123,10 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <HiOutlineMail className="h-5 w-5 shrink-0 text-[#FFC107]" />
                 <Link
-                  href="mailto:hello@edushinefastfood.com"
+                  href="mailto:chineduoliver79@gmail.com"
                   className="hover:text-[#FFC107]"
                 >
-                  hello@edushinefastfood.com
+                  chineduoliver79@gmail.com
                 </Link>
               </li>
 
@@ -171,7 +171,7 @@ export default function Footer() {
       <div className="border-t border-white/10 mb-16 md:mb-0">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-center text-sm text-blue-200 sm:px-6 lg:flex-row lg:px-8">
           <p>
-            © {year} Edushine Fast Food. All rights reserved.
+            © {year} Edushines Fast Food. All rights reserved.
           </p>
 
           <p>

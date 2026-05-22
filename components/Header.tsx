@@ -51,11 +51,11 @@ export default function Header() {
         <Link
           href="#hero"
           className="group flex items-center gap-2"
-          aria-label="Edushine Fast Food Home"
+          aria-label="Edushines Fast Food Home"
         >
           <div className="flex flex-col leading-none">
             <span className="font-sans text-2xl font-bold tracking-tight text-white sm:text-3xl">
-              Edushine
+              Edushines
             </span>
             <span className="text-[11px] font-medium uppercase tracking-[0.25em] text-[#FFC107] sm:text-xs">
               Fast Food
@@ -96,7 +96,7 @@ export default function Header() {
           <Link
             href="tel:+2349067565256"
             className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
-            aria-label="Call Edushine Fast Food"
+            aria-label="Call Edushines Fast Food"
           >
             <HiPhone className="h-5 w-5" />
           </Link>
@@ -145,7 +145,7 @@ export default function Header() {
           <div className="flex items-center justify-between border-b border-[#1A237E]/10 px-6 pt-5">
             <div>
               <h2 className="font-sans text-2xl font-bold text-[#1A237E]">
-                Edushine
+                Edushines
               </h2>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FFC107]">
                 Fast Food

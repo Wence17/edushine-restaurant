@@ -61,13 +61,13 @@ const menuItems: Record<
     {
       name: "Zobo",
       description: "Traditional hibiscus drink with a refreshing local taste.",
-      price: "₦1,000",
+      price: "₦2,000",
       image: "/assets/images/menu/zobo.jpg",
     },
     {
       name: "Fresh Juice",
       description: "Freshly made orange, pineapple, or watermelon juice.",
-      price: "₦1,000",
+      price: "₦2,000",
       image: "/assets/images/menu/fresh-juice.jpg",
     },
     {

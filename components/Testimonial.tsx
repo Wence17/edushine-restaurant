@@ -27,7 +27,7 @@ const testimonials = [
     role: "Wuse II Resident",
     image: "/assets/images/testimonials/testimonials-2.png",
     quote:
-      "Edushine Fast Food has become my go-to spot for lunch. Their Chapman and Caesar Salad are absolutely perfect.",
+      "Edushines Fast Food has become my go-to spot for lunch. Their Chapman and Caesar Salad are absolutely perfect.",
   },
   {
     name: "Tolu O.",

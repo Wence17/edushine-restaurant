@@ -42,7 +42,7 @@ export default function AboutSection() {
           className="mx-auto mb-16 max-w-3xl text-center"
         >
           <span className="inline-flex items-center rounded-full bg-[#FFC107]/10 px-4 py-2 text-sm font-semibold text-[#1A237E]">
-            About Edushine Fast Food
+            About Edushines Fast Food
           </span>
 
           <h2 className="mt-4 font-sans text-3xl font-bold tracking-tight text-[#1A237E] sm:text-4xl lg:text-5xl">
@@ -70,7 +70,7 @@ export default function AboutSection() {
               <div className="relative aspect-4/3 overflow-hidden rounded-[1.5rem]">
                 <Image
                   src={aboutpic}
-                  alt="Fresh meals prepared at Edushine Fast Food"
+                  alt="Fresh meals prepared at Edushines Fast Food"
                   fill
                   className="object-cover"
                 />
@@ -112,7 +112,7 @@ export default function AboutSection() {
           >
             {/* Intro Quote */}
             <p className="text-lg italic leading-8 text-slate-600">
-              At Edushine Fast Food, we believe that every meal should be fresh,
+              At Edushines Fast Food, we believe that every meal should be fresh,
               flavorful, and easy to enjoy.
             </p>
 
@@ -148,7 +148,7 @@ export default function AboutSection() {
               <div className="relative aspect-video overflow-hidden rounded-2xl">
                 <Image
                   src={aboutpic2}
-                  alt="Inside Edushine Fast Food"
+                  alt="Inside Edushines Fast Food"
                   fill
                   className="object-cover"
                 />

@@ -57,7 +57,7 @@ export default function HeroSection() {
               Enjoy delicious Nigerian favorites, healthy salads, and refreshing
               drinks from{" "}
               <span className="font-semibold text-[#1A237E]">
-                Edushine Fast Food
+                Edushines Fast Food
               </span>
               . Prepared fresh daily and delivered hot to your doorstep in Wuse
               II and across Abuja.
@@ -146,7 +146,7 @@ export default function HeroSection() {
                   <Image
                     // src="/images/hero-food.jpg"
                     src={herofood}
-                    alt="Delicious meals from Edushine Fast Food"
+                    alt="Delicious meals from Edushines Fast Food"
                     fill
                     priority
                     className="object-contain object-center"

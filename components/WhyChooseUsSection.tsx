@@ -80,7 +80,7 @@ export default function WhyChooseUsSection() {
               </span>
 
               <h2 className="mt-6 font-serif text-3xl font-bold leading-tight sm:text-4xl">
-                Why Abuja Loves Edushine Fast Food
+                Why Abuja Loves Edushines Fast Food
               </h2>
 
               <p className="mt-6 leading-8 text-white/80">
@@ -91,7 +91,7 @@ export default function WhyChooseUsSection() {
 
               <p className="mt-4 leading-8 text-white/80">
                 Whether you need a quick office lunch, family dinner, or
-                same-day delivery, Edushine Fast Food is your trusted choice in
+                same-day delivery, Edushines Fast Food is your trusted choice in
                 Wuse II, Abuja.
               </p>
 

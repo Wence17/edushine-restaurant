@@ -29,8 +29,8 @@ const contactInfo = [
   {
     icon: HiOutlineMail,
     title: "Email Us",
-    content: "hello@edushinefastfood.com",
-    href: "mailto:hello@edushinefastfood.com",
+    content: "chineduoliver79@gmail.com",
+    href: "mailto:chineduoliver79@gmail.com",
   },
   {
     icon: HiOutlineClock,
@@ -78,7 +78,7 @@ export default function ContactSection() {
         {/* Google Map */}
         <div className="mt-14 overflow-hidden rounded-[2rem] shadow-xl ring-1 ring-[#1A237E]/5">
           <iframe
-            title="Edushine Fast Food Location"
+            title="Edushines Fast Food Location"
             src="https://www.google.com/maps?q=Plot+106+Aminu+Kano+Crescent+Wuse+II+Abuja&output=embed"
             className="h-105 w-full border-0"
             loading="lazy"

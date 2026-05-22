@@ -31,7 +31,7 @@ export default function MobileCtaBar() {
           className="h-12 rounded-2xl bg-[#25D366] text-white shadow-lg shadow-[#25D366]/20 hover:bg-[#22c55e]!"
         >
           <Link
-            href="https://wa.me/2349067565256?text=Hello%20Edushine%20Fast%20Food!%20I%20would%20like%20to%20place%20an%20order."
+            href="https://wa.me/2349067565256?text=Hello%20Edushines%20Fast%20Food!%20I%20would%20like%20to%20place%20an%20order."
             target="_blank"
             rel="noopener noreferrer"
           >
