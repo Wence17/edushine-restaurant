@@ -17,20 +17,20 @@ const contactInfo = [
   {
     icon: HiOutlineLocationMarker,
     title: "Visit Us",
-    content: "Plot 106 Aminu Kano Crescent, Wuse II, Abuja, Nigeria",
-    href: "https://maps.google.com/?q=Plot+106+Aminu+Kano+Crescent+Wuse+II+Abuja",
+    content: "Plot 108 Aminu Kano Crescent, Wuse II, Abuja, Nigeria",
+    href: "https://maps.google.com/?q=Plot+108+Aminu+Kano+Crescent+Wuse+II+Abuja",
   },
   {
     icon: HiOutlinePhone,
     title: "Call Us",
-    content: "+234 906 756 5256",
-    href: "tel:+2349067565256",
+    content: "+234 708 967 3818",
+    href: "tel:+2347089673818",
   },
   {
     icon: HiOutlineMail,
     title: "Email Us",
-    content: "chineduoliver79@gmail.com",
-    href: "mailto:chineduoliver79@gmail.com",
+    content: "somtoobimka@gmail.com",
+    href: "mailto:somtoobimka@gmail.com",
   },
   {
     icon: HiOutlineClock,
