@@ -36,7 +36,7 @@ const socialLinks = [
   },
   {
     name: "WhatsApp",
-    href: "https://wa.me/2349067565256",
+    href: "https://wa.me/2347089673818",
     icon: FaWhatsapp,
   },
   {
@@ -104,7 +104,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <HiOutlineLocationMarker className="mt-1 h-5 w-5 shrink-0 text-[#FFC107]" />
                 <span>
-                  Plot 106 Aminu Kano Crescent,
+                  Plot 108 Aminu Kano Crescent,
                   <br />
                   Wuse II, Abuja, Nigeria
                 </span>
@@ -113,20 +113,20 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <HiOutlinePhone className="h-5 w-5 shrink-0 text-[#FFC107]" />
                 <Link
-                  href="tel:+2349067565256"
+                  href="tel:+2347089673818"
                   className="hover:text-[#FFC107]"
                 >
-                  +234 906 756 5256
+                  +2347089673818
                 </Link>
               </li>
 
               <li className="flex items-center gap-3">
                 <HiOutlineMail className="h-5 w-5 shrink-0 text-[#FFC107]" />
                 <Link
-                  href="mailto:chineduoliver79@gmail.com"
+                  href="mailto:somtoobimka@gmail.com"
                   className="hover:text-[#FFC107]"
                 >
-                  chineduoliver79@gmail.com
+                  somtoobimka@gmail.com
                 </Link>
               </li>
 
@@ -171,7 +171,7 @@ export default function Footer() {
       <div className="border-t border-white/10 mb-16 md:mb-0">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-center text-sm text-blue-200 sm:px-6 lg:flex-row lg:px-8">
           <p>
-            © {year} Edushines Fast Food. All rights reserved.
+            © {year} BSI Technology. All rights reserved.
           </p>
 
           <p>
