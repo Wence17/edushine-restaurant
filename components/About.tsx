@@ -87,10 +87,10 @@ export default function AboutSection() {
                 <div>
                   <p className="text-sm text-white/70">Call to Order</p>
                   <Link
-                    href="tel:+2349067565256"
+                    href="tel:+2347089673818"
                     className="text-xl font-bold text-[#FFC107]"
                   >
-                    +234 906 756 5256
+                    +234 708 967 3818
                   </Link>
                 </div>
               </div>
